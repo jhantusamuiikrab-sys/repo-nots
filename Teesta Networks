@@ -9,3 +9,8 @@ git checkout -b 'development'
 git add .
 git commit -m "first commit"
 git push -u origin 'development'
+
+
+if we want to create our local branch
+git fetch
+git branch -a
