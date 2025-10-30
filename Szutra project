@@ -4,3 +4,10 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/jhantusamuiikrab-sys/szutra.git
 git push -u origin main
+
+
+
+
+
+! [rejected] main -> main (non-fast-forward) 
+When this type of error enter the bellow code => git pull origin main --allow-unrelated-histories
