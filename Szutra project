@@ -11,3 +11,10 @@ git push -u origin main
 
 ! [rejected] main -> main (non-fast-forward) 
 When this type of error enter the bellow code => git pull origin main --allow-unrelated-histories
+
+
+How to delete local branch
+git branch -d development
+
+How to delete remote branch
+git push origin :development
